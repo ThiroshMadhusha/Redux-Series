@@ -1,14 +1,10 @@
-import Content from "./Content";
-import Footer from "./Footer";
-import Header from "./Header";
+import Counter from "./features/counter/Counter";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Content />
-      <Footer />
-    </div>
+    <main className="App">
+      <Counter />
+    </main>
   );
 }
 
